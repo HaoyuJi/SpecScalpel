@@ -135,7 +135,6 @@ python evaluate.py --dataset PKU-subject --cuda 0 --model pretrained_models/PKU-
 
 
 ## Acknowledgement
-The TRG-Net model and code are built upon [DeST](https://github.com/lyhisme/dest) and [LaSA](https://github.com/HaoyuJi/LaSA).
 The text embeddings for Action-text Contrastive Loss are generated using [BERT](https://github.com/google-research/bert).
 Our experiments were conducted on four publicly available datasets: [PKU-MMD (X-sub)](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html), [PKU-MMD (X-view)](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html), [LARa](https://zenodo.org/records/3862782), [MCFS-130](https://shenglanliu.github.io/mcfs-dataset/), and [TCG-15](https://github.com/againerju/tcg_recognition).
 
