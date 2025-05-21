@@ -108,7 +108,7 @@ To train our model on different datasets, use the following command:
 python train.py --dataset PKU-subject --cuda 0
 ```
 
-Here, `--dataset` can be one of the following: LARA, MCFS-130, PKU-subject, or PKU-view. 
+Here, `--dataset` can be one of the following: LARA, MCFS-130, PKU-subject, PKU-view, or TCG-15. 
 `--cuda` specifies the ID number of the GPU to be used for training. 
 Additionally, you can use `--result_path` to specify the output path, which defaults to `./result`.
 
