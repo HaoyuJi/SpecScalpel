@@ -25,7 +25,7 @@ The main contributions of this work are summarized as follows:
 1) We propose Spectral Scalpel, the first framework to systematically integrate frequency-domain processing into STAS, enhancing inter-class discriminability and sharpening transition boundaries.
 2) We design a frequency filtering mechanism comprising the Multi-scale Adaptive Spectral Filter (MASF) and Adjacent Action Discrepancy Loss (AADL), which optimizes spectral discrepancy through self-supervised learning to effectively guide the network in learning discriminative representations.
 3) We introduce a Frequency-Aware Channel Mixer (FACM) module that strengthens temporal modeling through spectral interaction among channels, enabling frequency-domain-aware channel evolution.
-4）Extensive experiments on five datasets demonstrate that Spectral Scalpel achieves state-of-the-art performance while maintaining competitive computational efficiency.
+4) Extensive experiments on five datasets demonstrate that Spectral Scalpel achieves state-of-the-art performance while maintaining competitive computational efficiency.
 
 > * This implementation code encompasses both training `train.py` and evaluation `evaluation.py` procedures.
 > * A single GPU (NVIDIA RTX 3090) can perform all the experiments.
